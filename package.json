@@ -1,22 +1,17 @@
 {
-  "name": "mcp-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.20.0",
-    "express": "^5.1.0",
+    "@modelcontextprotocol/sdk": "^1.20.2",
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@types/express": "^5.0.3",
-    "@types/node": "^24.8.0",
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }
