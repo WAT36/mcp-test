@@ -37,6 +37,5 @@ async function main() {
 }
 main().catch((e) => {
   console.error("MCP server failed:", e);
-  // npm i --save-dev @types/node
   process.exit(1);
 });

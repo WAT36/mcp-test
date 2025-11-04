@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "local-date-server": {
+      "command": "node",
+      "args": ["node_modules/.bin/tsx", "server.ts"],
+      "transport": { "type": "stdio" },
+      "env": {}
+    }
+  }
+}
